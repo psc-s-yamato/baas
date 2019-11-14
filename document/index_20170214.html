@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BaaS@rakuza｜スマホアプリ構築バックエンドツール｜ピープルソフトウェア株式会社</title>
+<meta name="viewport" content="width=1280">
+<meta name="description" content="スマホアプリを開発するのがとても便利になるバックエンド構築ツールBaaS@rakuzaのご紹介">
+<meta name="keywords" content="BaaS,スマホ,アプリ,開発,運用,mBaaB,タブレット開発,サーバサイド">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/index.css">
+<script src="../js/jquery.js"></script>
+<script src="../js/script.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-85900328-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<header id="page-top">
+	<div>
+		<div>
+			<h1>スマホアプリ構築バックエンドツール BaaS@rakuza 豊富な機能でスマートなアプリ開発を</h1>
+			<nav>
+				<p><a href="#">Monaca プロダクトパートナー 詳しくはこちら</a></p>
+				<p class="button mail"><a href="../inquiry/"><span><span>無料体験版申し込み・お問い合わせ</span></span></a></p>
+			</nav>
+		</div>
+	</div>
+	<nav>
+		<div>
+			<ul>
+				<li><div><div><a href="../">BaaS@rakuza</a></div></div></li>
+				<li><a href="../">Home</a></li>
+				<li><a href="../service/">提供機能</a></li>
+				<li><a href="../#s4">プラン</a></li>
+				<li><a href="../case/">導入事例</a></li>
+				<li class="current"><a href="../document/">ドキュメント</a></li>
+				<li><a href="../#s6">お知らせ</a></li>
+				<li><div><div><div class="button mail2"><a href="../inquiry/" onclick="ga('send', 'event', 'pc_button', 'click', 'head_doc_inquiry');"><span><span>無料体験版申し込み・お問い合わせ</span></span></a></div></div></div></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<main>
+	<div>
+		<h2>ドキュメント</h2>
+		<h3>BaaS＠rakuza を利用したスマホアプリの作り方</h3>
+		<p>「BaaS@rakuza」は、スマホアプリのバックエンド機能を提供するクラウドサービスです。<br>
+このドキュメントでは、BaaS@rakuzaでアプリを作成する手順を紹介しています。</p>
+		<nav id="toc">
+			<ul>
+				<li><a href="#s1" onclick="ga('send', 'event', 'pc_button', 'click', 'doc_navi01');"><span>Step 1</span><span>利用準備</span></a></li>
+				<li><a href="#s2" onclick="ga('send', 'event', 'pc_button', 'click', 'doc_navi02');"><span>Step 2</span><span>動作設定</span></a></li>
+				<li><a href="#s3" onclick="ga('send', 'event', 'pc_button', 'click', 'doc_navi03');"><span>Step 3</span><span>アプリ開発</span></a></li>
+			</ul>
+		</nav>
+		<section id="s1">
+			<h4><span>Step 1</span><span>BaaS@rakuzaの利用準備</span></h4>
+			<p><a href="../inquiry/index.html">こちらから</a>利用申し込みを行っていただき、BaaS@rakuza利用環境とSDKを入手してください。<br>
+        お試し版は、オプション機能を除いた全ての機能を60日間無料でご利用頂けます。</p>
+			<div class="button-group">
+				<div>
+				<div><nav class="button next"><a href="pdf/baas@rakuza_freeplan_start_ver1.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step1_pdf01');"><span><span>利用申し込みの流れ (PDF)　</span></span></a></nav></div>
+					<div></div>
+				</div>
+			</div>
+		</section>
+		<section id="s2">
+			<h4><span>Step 2</span><span>BaaS@rakuzaの動作設定</span></h4>
+			<p>提供されたBaaS@rakuza利用環境の管理者サイトへログインしてください。<br>
+            お申し込みプランに応じた提供機能から、制作するアプリに必要となるバックエンド機能の設定、各種データの登録を行ってください。</p>
+			<!--
+            <div class="button-group">
+				<div>
+					<div><nav class="button next"><a href="pdf/baas@rakuzaSDK_reference_first.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step2_pdf01');"><span><span>初期設定 リファレンス (PDF)</span></span></a></nav></div>
+					<div><nav class="button next"><a href="pdf/baas@rakuzaSDK_reference_development.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step2_pdf02');"><span><span>開発編 リファレンス (PDF)</span></span></a></nav></div>
+				</div>
+				<div>
+					<div><nav class="button next"><a href="pdf/baas@rakuzaSDK_reference_operation.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step2_pdf03');"><span><span>運用編 リファレンス (PDF)</span></span></a></nav></div>
+				</div>
+			</div>
+            -->
+		</section>
+		<section id="s3">
+			<h4><span>Step 3</span><span>アプリの開発</span></h4>
+			<p>BaaS@rakuzaの豊富な機能を簡単に利用できるSDKを使って、いよいよアプリの開発を行います。<br>
+            各種SDKを使って、様々なプラットフォームでのアプリ開発が可能になります。</p>
+			<div class="button-group">
+				<div>
+					<div><nav class="button next" ><a href="pdf/baas@rakuzaCordovaPlugin_reference.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step3_pdf01');"><span><span>CordovaプラグインでのMonacaアプリ開発（PDF）</span></span></a></nav></div>
+				</div>
+			</div>
+			<div class="button-group">
+				<div>
+					<div><nav class="button next ios"><a href="pdf/baas@rakuzaSDK_reference_ios.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step3_pdf02');"><span><span>iOS SDKでのネイティブアプリ開発 (PDF)</span></span></a></nav></div>
+				</div>
+			</div>
+            <div class="button-group">
+				<div>
+					<div><nav class="button next android"><a href="pdf/baas@rakuzaSDK_reference_android.pdf" target="_blank" onclick="ga('send', 'event', 'pc_button', 'download', 'step3_pdf02');"><span><span>Android SDKでのネイティブアプリ開発 (PDF)</span></span></a></nav></div>
+				</div>
+			</div>
+		</section>
+	</div>
+</main>
+
+<footer>
+	<nav><a href="#page-top"><span>ページトップへ</span></a></nav>
+	<div>
+		<div>
+			<address>
+				<div>
+					<p><img src="../images/shared/pc/footer/logo.png" alt="ピープルソフトウェア株式会社"></p>
+					<div>
+						<p><span>フリーダイヤル</span><span><a href="tel:0120-542-070" onclick="ga('send', 'event', 'sp_button', 'click', 'foot_tel_0120');">0120-542-070</a> (通話料金無料)</span></p>
+						<p><span>携帯電話</span><span><a href="tel:03-5280-9313" onclick="ga('send', 'event', 'sp_button', 'click', 'foot_tel_03');">03-5280-9313</a> (通話料金がかかります)</span></p>
+						<p><span>受付時間</span><span>9:00 〜 18:00　(土日祝除く)</span></p>
+						<p><span>Email</span><span><a href="mailto:rakuza@pscsrv.co.jp">rakuza@pscsrv.co.jp</a></span></p>
+					</div>
+				</div>
+			</address>
+			<nav>
+				<div>
+					<p>製品に関するお問い合わせは、<br>下記のフォームからご連絡ください。</p>
+					<p class="button mail"><a href="../inquiry/" onclick="ga('send', 'event', 'pc_button', 'click', 'foot_doc_inquiry');"><span><span>無料体験版申し込み・お問い合わせ</span></span></a></p>
+				</div>
+			</nav>
+		</div>
+		<div>
+			<ul>
+				<li><a href="https://www.pscsrv.co.jp/subnavi/privacy.html">プライバシーポリシー</a></li><li><a href="https://www.pscsrv.co.jp/company/index.html">企業情報</a></li>
+			</ul>
+			<p><small>Copyright (c) people software. All Rights Reserved.</small></p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
